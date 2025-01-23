@@ -36,44 +36,44 @@ console.log(result);
 
 // Задание 3 
 
-let month = prompt("Введите любое число от 1 до 12");
+const month = prompt("Введите любое число от 1 до 12");
 let monthName;
 
 switch (month) {
-    case 1:
+    case '1':
         monthName = 'Январь';
         break;
-    case 2:
+    case '2':
         monthName = 'Февраль';
         break;
-    case 3:
+    case '3':
         monthName = 'Март';
         break;        
-    case 4:
+    case '4':
         monthName = 'Апрель';
         break;
-    case 5:
+    case '5':
         monthName = 'Май';
         break;       
-    case 6:
+    case '6':
         monthName = 'Июнь';
         break;        
-    case 7:
+    case '7':
         monthName = 'Июль';
         break;
-    case 8:
+    case '8':
         monthName = 'Август';
         break;
-    case 9:
+    case '9':
         monthName = 'Сентябрь';
         break;
-    case 10:
+    case '10':
         monthName = 'Октябрь';
         break;
-    case 11:
+    case '11':
         monthName = 'Ноябрь';
         break;
-    case 12:
+    case '12':
         monthName = 'Декабрь';
         break;
     default:
@@ -81,3 +81,24 @@ switch (month) {
 }
 
 console.log(monthName);
+
+
+// Задание 4
+const OctoberRevolDay = prompt("В какой день октября свершилась Великая Октябрьская Революция");
+let dataORD;
+
+switch (OctoberRevolDay) {
+    case '25':
+        dataORD = 'Ты прям историк!';
+        break;
+    case '24':
+        dataORD = 'почти , на следующий день';
+        break;
+    case '26':
+        dataORD = 'почти , в предыдующий день';
+        break;
+    default:
+        dataORD = 'иди учись)';
+}
+
+console.log(dataORD);

@@ -84,21 +84,21 @@ console.log(monthName);
 
 
 // Задание 4
-const OctoberRevolDay = prompt("В какой день октября свершилась Великая Октябрьская Революция");
-let dataORD;
+const GreatRevolution = prompt("В каком году свершилась Великая Октябрьская Революция");
+let yearOfEvent;
 
-switch (OctoberRevolDay) {
-    case '25':
-        dataORD = 'Ты прям историк!';
+switch (GreatRevolution) {
+    case '1917':
+        yearOfEvent = 'Ты прям историк!';
         break;
-    case '24':
-        dataORD = 'почти , на следующий день';
+    case '1916':
+        yearOfEvent = 'почти угадал - в следующем году';
         break;
-    case '26':
-        dataORD = 'почти , в предыдующий день';
+    case '1918':
+        yearOfEvent = 'чуть ошибся - год назад';
         break;
     default:
-        dataORD = 'иди учись)';
+        yearOfEvent = 'иди учись)';
 }
 
-console.log(dataORD);
+console.log(yearOfEvent);
